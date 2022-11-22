@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    background-color: #ECF0F4;
+
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.consec1 {
+    width: 80%;
+    margin: 15px auto;
+    margin-bottom: 40px;
+    height: 100vh;
+    /* position: absolute;
+
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+.cs1 {
+    width: fit-content;
+    margin: 10px auto;
+    margin-bottom: 15px;
+
+}
+
+.cs1 h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #3D3C42;
+    letter-spacing: 2px;
+
+}
+
+.consec1 .defr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.defr .defr1 {
+    width: 36%;
+    box-shadow: 0 0 21px 0 #dfd6d6;
+    padding: 7px;
+    height: 680px;
+    border-radius: 8px;
+}
+
+.defr .defr2 {
+    width: 55%;
+    border-radius: 50px 0;
+}
+
+.conimgs {
+    margin-bottom: 10px;
+
+}
+
+.defr .info .conimgs img {
+    width: 100%;
+}
+
+.details>div {
+    margin-top: 20px;
+}
+
+.details {
+    padding-left: 10px;
+}
+
+.details>div>i,
+p {
+    letter-spacing: .5px;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+.details>div>p>i {
+    color: #917a75;
+}
+
+.fin h5 {
+    margin-bottom: 10px;
+}
+
+.conform {
+    padding: 15px;
+    box-shadow: 0 0 21px 0 #dfd6d6;
+}
+
+.conform .conform1 div {
+    width: 100%;
+    margin: 20px auto;
+}
+
+.conform .conform1 div input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+
+}
+
+.conform .conform1 div input:focus {
+    outline: none;
+    border: 1px solid #FF4321;
+}
+
+.conform1 .inp1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.conform1 .inp1 input {
+    width: calc(95% / 2) !important;
+    padding: 10px;
+}
+
+.textarea p {
+    font-family: 'Montserrat', sans-serif;
+    color: #3D3C42;
+    letter-spacing: 2px;
+    margin: 10px auto;
+}
+
+.textarea #area {
+    width: 100%;
+    height: 200px;
+    margin: 10px auto;
+}
+
+
+
+.conform1 button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #dfe5eb;
+    cursor: pointer;
+    color: #FF4321;
+    font-size: 1rem;
+    transition: all .5s;
+
+}
+
+.conform1 button:hover {
+    background-color: #FF4321;
+    color: #dfd6d6;
+}
+
+.fin2 a i {
+    margin-top: 6px;
+    padding: 10px;
+    text-align: center;
+    width: fit-content;
+    background-color: #f9fafbd1;
+    color: #3D3C42;
+    margin-left: 5px;
+    box-shadow: 0 0 10px 0 #c5b6b6;
+    transition: all .7s;
+}
+
+.fin2 a i:hover {
+    background-color: #1E2225;
+    color: #d3d3d3;
+}
